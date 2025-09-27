@@ -111,7 +111,7 @@
       // Hardcode full path so mobile won't truncate to domain root
       const url = 'https://tap-connect.github.io/lohana-toyota/';
       if (navigator.share) {
-        try { await navigator.share({ title: 'Connect with Lohana', text: 'Toyota inventory, service & contact', url }); }
+        try { await navigator.share({ title: 'Connect with Lohana', text: 'Toyota inventory, sales & contact', url }); }
         catch (e) { console.log(e); }
       } else if (navigator.clipboard && navigator.clipboard.writeText) {
         try { await navigator.clipboard.writeText(url); alert('Link copied: ' + url); }
