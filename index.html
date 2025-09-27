@@ -1,125 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lohana De Gracia | AutoNation Toyota Fort Myers</title>
-  <meta name="description" content="Tap to view inventory, schedule service, and connect with Lohana at AutoNation Toyota Fort Myers." />
-
-  <!-- Social preview -->
-  <meta property="og:title" content="Lohana De Gracia – AutoNation Toyota Fort Myers" />
-  <meta property="og:description" content="Mobile contact hub with inventory, service scheduling, social links, and direct contact." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/preview-card.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="assets/preview-card.png" />
-  <meta name="theme-color" content="#EB0A1E" />
-
-  <style>
-    :root { --red:#EB0A1E; --black:#111; --ink:#1a1a1a; --white:#fff; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:#fff; color:var(--ink); font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
-
-    .shell { max-width:640px; margin:16px auto; border:1px solid #ececec; border-radius:18px; overflow:hidden; box-shadow:0 8px 22px rgba(0,0,0,.08); }
-
-    /* Header */
-    .header { background:#fff; padding:14px 16px 16px; text-align:center; }
-    .logo-wrap { display:flex; justify-content:center; }
-    .logo-wrap img { max-width:86%; height:auto; }
-
-    /* Centered avatar with black outline */
-    .avatar { width:128px; height:128px; margin:14px auto 8px;
-              border-radius:50%;
-              background:#fff url('assets/profile.jpg') center/cover no-repeat;
-              border:4px solid #000;
-              box-shadow:0 2px 12px rgba(0,0,0,.12); }
-
-    .name { font-weight:900; font-size:1.22rem; line-height:1.2; margin-top:6px; }
-    .title { color:#666; font-size:1rem; margin-top:2px; }
-
-    .chip { display:inline-block; background:#000; color:#fff; padding:9px 14px; border-radius:999px; font-weight:800; font-size:.92rem; margin:12px auto 0; }
-
-    /* Main all-red area */
-    .main { background:var(--red); padding:16px; }
-    h2 { color:#fff; font-size:.9rem; text-transform:uppercase; letter-spacing:.08em; margin:12px 4px; }
-
-    .btn { display:flex; align-items:center; justify-content:center; width:100%; padding:14px 16px;
-           border-radius:12px; background:var(--black); color:#fff; font-weight:800; text-decoration:none; border:1px solid #000; }
-    .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-    .stack { display:grid; gap:10px; }
-    @media (max-width:520px) { .grid2 { grid-template-columns:1fr; } }
-
-    .foot { background:#fff; color:#777; font-size:.82rem; text-align:center; padding:12px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lohana De Gracia – AutoNation Toyota Fort Myers</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
-  <div class="shell">
-
-    <header class="header">
-      <div class="logo-wrap">
-        <img src="assets/logo.png" alt="AutoNation Toyota Fort Myers logo">
-      </div>
-
-      <div class="avatar" aria-hidden="true"></div>
-      <div class="name">Lohana De Gracia</div>
-      <div class="title">Sales / Leasing Associate</div>
-
-      <div><span class="chip">Tap button below</span></div>
-    </header>
-
-    <main class="main">
-      <h2>Inventory</h2>
-      <div class="grid2">
-        <a class="btn" href="https://www.autonationtoyotafortmyers.com/new-inventory/index.htm" target="_blank" rel="noopener">New Inventory</a>
-        <a class="btn" href="https://www.autonationtoyotafortmyers.com/used-inventory/index.htm" target="_blank" rel="noopener">Used Inventory</a>
-      </div>
-
-      <h2>Service</h2>
-      <div class="stack">
-        <a class="btn" href="https://www.autonationtoyotafortmyers.com/service/schedule/appointment.htm" target="_blank" rel="noopener">Schedule Service Appointment</a>
-      </div>
-
-      <h2>Social &amp; Reviews</h2>
-      <div class="grid2">
-        <a class="btn" href="https://www.facebook.com/share/16FGiZBa1f/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a>
-        <a class="btn" href="https://www.instagram.com/lohana_toyota?igsh=MXZkd3d1YmM0ejcxeA%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
-        <a class="btn" href="https://www.tiktok.com/@lohana.de.gracia?_t=ZT-903FMqc2yIR&_r=1" target="_blank" rel="noopener">TikTok</a>
-        <a class="btn" href="https://share.google/TbA3HE5I6SoGAnjaY" target="_blank" rel="noopener">Google Reviews</a>
-      </div>
-
-      <h2>Contact Lohana</h2>
-      <div class="grid2">
-        <a class="btn" href="tel:+17868988739">Call</a>
-        <a class="btn" href="sms:+17868988739">Text</a>
-        <a class="btn" href="mailto:degraciaperezl@autonation.com?subject=Toyota%20Inquiry">Email</a>
-        <a class="btn" href="https://wa.me/17868988739" target="_blank" rel="noopener">WhatsApp</a>
-        <a class="btn" href="lohana.vcf" download>Save Contact (vCard)</a>
-        <button class="btn" onclick="shareCard()">Share Link</button>
-      </div>
-    </main>
-
-    <footer class="foot">
-      This page is an independent contact hub for convenience. Inventory, pricing and service scheduling are provided by AutoNation Toyota Fort Myers. ©
-      <span id="year"></span>
-    </footer>
-
-  </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    async function shareCard() {
-      // Hardcode full path so mobile won't truncate to domain root
-      const url = 'https://tap-connect.github.io/lohana-toyota/';
-      if (navigator.share) {
-        try { await navigator.share({ title: 'Connect with Lohana', text: 'Toyota inventory, sales & contact', url }); }
-        catch (e) { console.log(e); }
-      } else if (navigator.clipboard && navigator.clipboard.writeText) {
-        try { await navigator.clipboard.writeText(url); alert('Link copied: ' + url); }
-        catch (e) { prompt('Copy this link:', url); }
-      } else {
-        prompt('Copy this link:', url);
-      }
-    }
-  </script>
+  <h1>Landing Page Test</h1>
+  <p>This version includes only the Apple Touch Icon for iPhone home screen.</p>
 </body>
 </html>
